@@ -7,7 +7,7 @@
         padding-top: 100px;
     }
 
-    .menu_item ul{
+    .menu_item ul {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -19,9 +19,47 @@
         margin: 40px 0px;
     }
 
-}
+    .top_section_img {
+        width: 80%;
+    }
 
-@media screen and (min-width: 425px) and (max-width: 768px){
+    .top_section_container {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+
+    .top_section_text {
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    .top_section_text h2 {
+        font-size: 44px;
+    }
+
+    .top_section_text h1 {
+        font-size: 90px;
+    }
+
+    .top_section_text p {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .common-btn {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+
+    .top_section_text button:last-child{
+        margin-left: 10px;
+        background-color: #4EC5F7;
+    }
+
+}
+ 
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -30,8 +68,42 @@
         padding-top: 100px;
     }
 
-    
+    .top_section_container{
+        padding: 20px;
+    }
+
     .menu_item button {
         margin: 40px 0px;
     }
-}
+
+    .top_section_text {
+        width: 80%;
+    }
+
+    .top_section_text h2 {
+        font-size: 30px;
+    }
+
+    .top_section_text h1 {
+        font-size: 80px;
+    }
+
+    .top_section_text p {
+        font-size: 16px;
+    }
+
+    .common-btn {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+
+    .top_section_img {
+        width: 90%;
+    }
+
+    .top_section_text button:last-child{
+        margin-left: 2px;
+        background-color: #4EC5F7;
+    }
+
+} 
