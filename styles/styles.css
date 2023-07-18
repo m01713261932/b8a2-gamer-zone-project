@@ -76,26 +76,33 @@ body {
 
 .menu_item ul li {
     padding-left: 32px;
-    padding-right: 32px;
 }
 
 .menu_item ul li:first-child {
     padding-right: 0px;
 }
 
-.menu_item ul li:last-child {
-
+.menu_item button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 56px;
     width: 262px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-left: 32px;
+
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
 }
 
-.folow_icon{
+.menu_item button i{
+    font-size: 30px;
+    padding: 0px 10px 0px 10px;
     color: red;
 }
+
