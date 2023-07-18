@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    max-width: 1920px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav style  */
+
+/* logo style  */
+
+.logo img {
+    display: block;
+    width: 86px;
+}
+
+.logo p {
+    padding-left: 20px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo p::first-letter{
+    color: #FF42A5;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
