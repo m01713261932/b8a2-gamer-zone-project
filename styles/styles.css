@@ -8,6 +8,16 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* common style  */
+
+.menu_text {
+    color: #3C354F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 /* nav style  */
 
 /* logo style  */
@@ -25,7 +35,7 @@ body {
     line-height: normal;
 }
 
-.logo p::first-letter{
+.logo p::first-letter {
     color: #FF42A5;
     font-size: 45px;
     font-style: normal;
@@ -37,4 +47,55 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* navbar style  */
+
+.navbar {
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    background: #FFF;
+
+}
+
+.menu_item ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_item ul a {
+    text-decoration: none;
+}
+
+.menu_item ul li {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.menu_item ul li:first-child {
+    padding-right: 0px;
+}
+
+.menu_item ul li:last-child {
+
+    height: 56px;
+    width: 262px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 32px;
+}
+
+.folow_icon{
+    color: red;
 }
