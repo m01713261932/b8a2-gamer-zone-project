@@ -107,6 +107,17 @@
         padding-top: 50px;
     }
 
+
+    /* more game  */
+
+    .multi_game{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* more game  */
+
+
     /* service  */
     .service {
         flex-wrap: wrap;
