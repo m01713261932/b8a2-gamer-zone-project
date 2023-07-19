@@ -296,15 +296,82 @@ body {
 /* funey video style  */
 
 
+/* play game style  */
+
+.play_game {
+    max-width: 1440px;
+    min-height: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pg_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play_game_img {
+    width: 50%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding-top: 50px;
+}
+
+.play_game_text {
+    width: 35%;
+}
+
+.play_game_text h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play_game_text h2 span:first-child {
+    color: #F948B2;
+}
+
+.play_game_text h2 span:last-child {
+    color: #8758F1;
+}
+
+.play_game_text p {
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.play_game_main_photo {
+    width: 95%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.play_game_small_photo {
+    position: absolute;
+    bottom: -150px;
+    right: -150px;
+}
+
+/* play game style  */
+
+
 /* more games style  */
 
-.more_game_container{
+.more_game_container {
     max-width: 1920px;
     min-height: 430px;
 }
 
-.multi_game{
-    max-width: 1440px;    
+.multi_game {
+    max-width: 1440px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -318,11 +385,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
-.single_game button {    
+.single_game button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,7 +403,7 @@ body {
     border-color: white;
 }
 
-.more_game_btn img{
+.more_game_btn img {
     padding: 10px;
 }
 

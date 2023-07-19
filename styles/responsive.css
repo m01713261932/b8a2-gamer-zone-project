@@ -110,7 +110,7 @@
 
     /* more game  */
 
-    .multi_game{
+    .multi_game {
         display: flex;
         flex-wrap: wrap;
     }
@@ -145,6 +145,50 @@
 
     /* social icons */
 
+
+    /* play game  */
+    
+    .pg_flex{
+        flex-direction: column-reverse;
+    }
+
+    .play_game_img {
+        width: 70%;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .play_game_text {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .play_game_small_photo {}
+
+    .play_game_text h2 {
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        padding-top: 50px;
+    }
+
+    .play_game_text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .play_game_small_photo {
+        position: absolute;
+        bottom: -60px;
+        right: -30px;
+        width: 50%;
+    }
+
+
+    /* play game  */
 
 }
 
@@ -241,6 +285,48 @@
         color: white;
         padding-top: 50px;
     }
+
+/* play game  */
+
+.pg_flex{
+    flex-direction: column-reverse;
+}
+
+.play_game_img {
+    width: 70%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.play_game_text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.play_game_small_photo {}
+
+.play_game_text h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    padding-top: 60px;
+}
+
+.play_game_text p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.play_game_small_photo {
+    position: absolute;
+    bottom: -100px;
+    right: -50px;
+    width: 50%;
+}
+
 
 
 }
