@@ -136,6 +136,14 @@ body {
 
 /* star top section  */
 
+.bg_top{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .top_section_container {
     max-width: 1440px;
     margin: 0 auto;
@@ -143,6 +151,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 50px;
+    
 }
 
 .top_section_text {
