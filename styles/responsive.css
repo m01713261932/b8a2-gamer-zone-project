@@ -52,7 +52,7 @@
         font-size: 15px;
     }
 
-    .top_section_text button:last-child{
+    .top_section_text button:last-child {
         margin-left: 10px;
         background-color: #4EC5F7;
     }
@@ -60,50 +60,87 @@
 
     /* gammer section  */
 
-.we_are_gamer_max_1440{
-    flex-direction: column;
+    .we_are_gamer_max_1440 {
+        flex-direction: column;
+    }
+
+    .we_are_gamer_text {
+        text-align: center;
+        width: 90%;
+    }
+
+    .we_are_gamer_text h3 {
+        font-size: 30px;
+    }
+
+    .we_are_gamer_text p {
+        font-size: 15px;
+    }
+
+    .we_are_gamer_text p:last-child {
+
+        font-size: 20px;
+
+    }
+
+    .funny_video_card {
+        flex-wrap: wrap;
+
+    }
+
+    .card {
+        padding-top: 48px;
+    }
+
+    .funny_video_main_container h3 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+    .funny_video_main_container p:first-child {
+        color: #534C64;
+        font-size: 5px;
+    }
+
+    .footer_logo {
+        color: white;
+        padding-top: 50px;
+    }
+
+    /* service  */
+    .service {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 50px;
+        margin: 0 auto;
+        text-align: center;
+        gap: 50px;
+    }
+
+    /* social icons */
+
+    .social_icons {
+        max-width: 500px;
+        font-size: 25px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 20px;
+        justify-content: center;
+        padding-top: 50px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* social icons */
+
+
 }
 
-.we_are_gamer_text{
-    text-align: center;
-    width: 90%;
-}
-
-.we_are_gamer_text h3 {
-    font-size: 30px;
-}
-
-.we_are_gamer_text p {
-    font-size: 15px;
-}
-
-.we_are_gamer_text p:last-child {
-
-    font-size: 20px;
-
-}
-
-.funny_video_card{
-    flex-wrap: wrap;
-
-}
-
-.card{
-    padding-top: 48px;
-}
-.funny_video_main_container h3 {
-    font-size: 25px;
-    padding-top: 30px;
-}
-
-.funny_video_main_container p:first-child {
-    color: #534C64;
-    font-size: 5px;
-}
-
-}
 
 
+
+/* for tablet  */
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .navbar {
@@ -114,7 +151,7 @@
         padding-top: 100px;
     }
 
-    .top_section_container{
+    .top_section_container {
         padding: 20px;
     }
 
@@ -147,46 +184,52 @@
         width: 90%;
     }
 
-    .top_section_text button:last-child{
+    .top_section_text button:last-child {
         margin-left: 2px;
         background-color: #4EC5F7;
     }
 
 
-       /* gammer section  */
+    /* gammer section  */
 
-.we_are_gamer_max_1440{
-    flex-direction: column;
+    .we_are_gamer_max_1440 {
+        flex-direction: column;
+    }
+
+    .we_are_gamer_text {
+        text-align: center;
+        width: 90%;
+    }
+
+    .we_are_gamer_text h3 {
+        font-size: 30px;
+    }
+
+    .we_are_gamer_text p {
+        font-size: 15px;
+    }
+
+    .we_are_gamer_text p:last-child {
+
+        font-size: 20px;
+
+    }
+
+    /* funny videos  */
+
+    .funny_video_card {
+        flex-wrap: wrap;
+
+    }
+
+    .funny_video_main_container {
+        padding-top: 50px;
+    }
+
+    .footer_logo {
+        color: white;
+        padding-top: 50px;
+    }
+
+
 }
-
-.we_are_gamer_text{
-    text-align: center;
-    width: 90%;
-}
-
-.we_are_gamer_text h3 {
-    font-size: 30px;
-}
-
-.we_are_gamer_text p {
-    font-size: 15px;
-}
-
-.we_are_gamer_text p:last-child {
-
-    font-size: 20px;
-
-}
-
-/* funny videos  */
-
-.funny_video_card{
-    flex-wrap: wrap;
-
-}
-
-.funny_video_main_container{
-    padding-top: 50px;
-}
-
-} 

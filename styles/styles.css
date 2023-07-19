@@ -272,7 +272,7 @@ body {
 }
 
 
-.funny_video_card{
+.funny_video_card {
     display: flex;
     justify-content: space-evenly;
     max-width: 1440px;
@@ -282,16 +282,90 @@ body {
 
 }
 
-.card{
+.card {
     max-width: 342px;
     text-align: left;
 }
 
-.card_description{
+.card_description {
     padding-top: 24px;
 }
 
 
-
-
 /* funey video style  */
+
+
+
+
+
+
+/* footer section  */
+
+.footer {
+    background: #0B0223;
+    max-width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+/* logo  */
+
+.footer_logo {
+    color: white;
+    padding-top: 126px;
+    max-width: 1920px;
+}
+
+/* logo  */
+
+
+/* service */
+
+.service{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 50px;
+}
+
+.service h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* service */
+
+/* social icons */
+
+.social_icons{
+    color: white;
+    padding-top: 60px;
+}
+
+.social_icons a{
+    color: white;
+}
+
+.social_icons{
+    max-width: 500px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* social icons */
+
+
+/* footer section  */
