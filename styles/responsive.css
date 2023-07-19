@@ -57,8 +57,54 @@
         background-color: #4EC5F7;
     }
 
+
+    /* gammer section  */
+
+.we_are_gamer_max_1440{
+    flex-direction: column;
 }
- 
+
+.we_are_gamer_text{
+    text-align: center;
+    width: 90%;
+}
+
+.we_are_gamer_text h3 {
+    font-size: 30px;
+}
+
+.we_are_gamer_text p {
+    font-size: 15px;
+}
+
+.we_are_gamer_text p:last-child {
+
+    font-size: 20px;
+
+}
+
+.funny_video_card{
+    flex-wrap: wrap;
+
+}
+
+.card{
+    padding-top: 48px;
+}
+.funny_video_main_container h3 {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.funny_video_main_container p:first-child {
+    color: #534C64;
+    font-size: 5px;
+}
+
+}
+
+
+
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -105,5 +151,42 @@
         margin-left: 2px;
         background-color: #4EC5F7;
     }
+
+
+       /* gammer section  */
+
+.we_are_gamer_max_1440{
+    flex-direction: column;
+}
+
+.we_are_gamer_text{
+    text-align: center;
+    width: 90%;
+}
+
+.we_are_gamer_text h3 {
+    font-size: 30px;
+}
+
+.we_are_gamer_text p {
+    font-size: 15px;
+}
+
+.we_are_gamer_text p:last-child {
+
+    font-size: 20px;
+
+}
+
+/* funny videos  */
+
+.funny_video_card{
+    flex-wrap: wrap;
+
+}
+
+.funny_video_main_container{
+    padding-top: 50px;
+}
 
 } 
