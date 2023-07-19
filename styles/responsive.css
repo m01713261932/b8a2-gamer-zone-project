@@ -85,6 +85,8 @@
 
     .funny_video_card {
         flex-wrap: wrap;
+        gap: 5px;
+        width: 100%;
 
     }
 
@@ -269,6 +271,7 @@
         font-size: 20px;
 
     }
+
 
     /* funny videos  */
 
