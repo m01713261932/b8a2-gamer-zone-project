@@ -323,7 +323,7 @@ body {
 
 /* service */
 
-.service{
+.service {
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -345,16 +345,16 @@ body {
 
 /* social icons */
 
-.social_icons{
+.social_icons {
     color: white;
     padding-top: 60px;
 }
 
-.social_icons a{
+.social_icons a {
     color: white;
 }
 
-.social_icons{
+.social_icons {
     max-width: 500px;
     font-size: 25px;
     display: grid;
@@ -367,5 +367,52 @@ body {
 
 /* social icons */
 
+
+/* terms style  */
+
+.terms {
+    max-width: 900px;
+    padding-top: 70px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.terms h4 {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+/* terms style  */
+
+/* copy right  */
+
+.copuright {
+    max-width: 1440px;
+    text-align: center;
+    padding: 50px 0px 40px 0px;
+    margin: 0 auto;
+}
+
+.copuright h4 {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+/* copy right  */
 
 /* footer section  */
